@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn clean *)",
+      "Bash(java --version)",
+      "Read(//usr/**)",
+      "Read(//opt/**)",
+      "Bash(docker --version)",
+      "Bash(docker run *)",
+      "Bash(docker system *)"
+    ]
+  }
+}
